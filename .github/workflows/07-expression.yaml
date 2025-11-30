@@ -2,10 +2,10 @@ name: 07 - Using Expressions
 
 on:
     workflow_dispatch:
-    inputs:
-      debug:
-        type: boolean
-        default: false
+      inputs:
+          debug:
+            type: boolean
+            default: false
 
 jobs:
   echo:

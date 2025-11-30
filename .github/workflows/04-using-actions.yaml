@@ -16,6 +16,9 @@ jobs:
         run: |
           cd 04-using-actions/react-app
           npm ci
+      - name: Run Unin Tests
+        run: npm run test
+        working-directory: 04-using-actions/react-app
         
 
     #0. Checkout the code form the repository
